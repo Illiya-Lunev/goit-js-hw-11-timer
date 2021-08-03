@@ -36,7 +36,7 @@ class CountdownTimer {
   timeFinish(time) {
     if (time < 0) {
       clearInterval(this.setInt);
-      refs.timerFace.textContent = 'Finish';
+      refs.timerFace.textContent = 'Finish Sale';
     }
   }
 }
